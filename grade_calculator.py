@@ -9,15 +9,17 @@ def calculate_average_grade():
     science_score = input("Science?: ")
     print("Okay, Okay " ,  math_score , science_score)
     english_score = input("And finally English?: ")
-    # print(f"I see you out here! ", math_score , science_score , english_score ," doing numbers! ")
+    print(f"I see you out here! ", math_score , science_score , english_score ," doing numbers! ")
  
 
     # Store the scores in the respective variables: math_score, science_score, english_score
-      
+    # math_score = int(input())
+    # science_score = int(input())
+    # english_score = int(input())
 
     # Calculate the average grade
     
-    average_grade = random.randint(math_score, science_score, english_score )/ 3 
+    # average_grade = int((math_score, science_score, english_score )/ 3)
     print("test print average grade", average_grade)
     # Return the student's name and their average grade
     return student_name, average_grade
