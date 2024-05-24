@@ -13,6 +13,8 @@ def calculate_average_grade():
  
 
     # Store the scores in the respective variables: math_score, science_score, english_score
+
+    ####################### int() DO REMEMBER! converts stored perspective as into integer ########  
     math_score = int(math_score)
     science_score = int(science_score)
     english_score = int(english_score)
