@@ -13,13 +13,13 @@ def calculate_average_grade():
  
 
     # Store the scores in the respective variables: math_score, science_score, english_score
-    # math_score = int(input())
-    # science_score = int(input())
-    # english_score = int(input())
+    math_score = int(math_score)
+    science_score = int(science_score)
+    english_score = int(english_score)
 
     # Calculate the average grade
     
-    # average_grade = int((math_score, science_score, english_score )/ 3)
+    average_grade = (math_score + science_score + english_score )
     print("test print average grade", average_grade)
     # Return the student's name and their average grade
     return student_name, average_grade
@@ -27,7 +27,7 @@ def calculate_average_grade():
 if __name__ == '__main__':
     # Call the calculate_average_grade function
     student_name, average_grade = calculate_average_grade()
-    calculate_average_grade()
+    print(calculate_average_grade())
 
     # Print the student's name and their average grade
     print(f"", student_name, calculate_average_grade)
