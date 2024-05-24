@@ -19,7 +19,7 @@ def calculate_average_grade():
 
     # Calculate the average grade
     
-    average_grade = (math_score + science_score + english_score )
+    average_grade = (math_score + science_score + english_score ) /3
     print("test print average grade", average_grade)
     # Return the student's name and their average grade
     return student_name, average_grade
